@@ -1,4 +1,4 @@
-package com.example.g5backendservedao;
+package com.example.g5backend.serve.dao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

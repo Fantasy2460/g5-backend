@@ -1,10 +1,10 @@
-package com.example.g5backendserveservice;
+package com.example.g5backend.serve.dao;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class G5BackendServeServiceApplicationTests {
+class G5BackendServeDaoApplicationTests {
 
     @Test
     void contextLoads() {
