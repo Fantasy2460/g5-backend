@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="g5-backend-serve-utils" />
+        <module name="g5-backend-serve-controller" />
+        <module name="g5-backend-serve-config" />
+        <module name="g5-backend-serve-entity" />
+        <module name="g5-backend-serve-service" />
+        <module name="g5-backend-serve-dao" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="g5-backend-serve-config" options="-parameters" />
+      <module name="g5-backend-serve-controller" options="-parameters" />
+      <module name="g5-backend-serve-dao" options="-parameters" />
+      <module name="g5-backend-serve-entity" options="-parameters" />
+      <module name="g5-backend-serve-service" options="-parameters" />
+      <module name="g5-backend-serve-utils" options="-parameters" />
+    </option>
+  </component>
+</project>

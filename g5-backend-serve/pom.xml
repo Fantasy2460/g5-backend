@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.2</version>
+
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>g5-backend-serve</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>g5-backend-serve</name>
+    <description>g5-backend-serve</description>
+    <url/>
+    <licenses>
+        <license/>
+    </licenses>
+    <modules>
+        <module>g5-backend-serve-config</module>
+        <module>g5-backend-serve-controller</module>
+        <module>g5-backend-serve-dao</module>
+        <module>g5-backend-serve-entity</module>
+        <module>g5-backend-serve-service</module>
+        <module>g5-backend-serve-utils</module>
+    </modules>
+    <developers>
+        <developer/>
+    </developers>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
+    <properties>
+        <java.version>22</java.version>
+        <g5-backend-serve-config.version>${project.version}</g5-backend-serve-config.version>
+        <g5-backend-serve-controller.version>${project.version}</g5-backend-serve-controller.version>
+        <g5-backend-serve-dao.version>${project.version}</g5-backend-serve-dao.version>
+        <g5-backend-serve-entity.version>${project.version}</g5-backend-serve-entity.version>
+        <g5-backend-serve-service.version>${project.version}</g5-backend-serve-service.version>
+        <g5-backend-serve-utils.version>${project.version}</g5-backend-serve-utils.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.bosssoft</groupId>
+                <artifactId>g5-backend-serve-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bosssoft</groupId>
+                <artifactId>g5-backend-serve-controller</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bosssoft</groupId>
+                <artifactId>g5-backend-serve-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bosssoft</groupId>
+                <artifactId>g5-backend-serve-entity</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bosssoft</groupId>
+                <artifactId>g5-backend-serve-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bosssoft</groupId>
+                <artifactId>g5-backend-serve-utils</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

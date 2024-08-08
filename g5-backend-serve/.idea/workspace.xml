@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3348429c-75f6-4a13-b5f0-c1654d217145" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/g5-backend-serve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/g5-backend-serve-config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-utils/g5-backend-serve-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backendservecontroller/G5BackendServeControllerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/test/java/com/example/g5backendservecontroller/G5BackendServeControllerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/test/java/com/example/g5backend/serve/controller/G5BackendServeControllerApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/g5-backend-serve-controller" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2kMtOSB7FpJQmXDL8fWehSA5D1L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/桌面/resp/g5-backend/g5-backend-serve",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.g5backendservecontroller" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.G5BackendServeControllerApplication">
+    <configuration name="G5BackendServeConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="g5-backend-serve-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bosssoft.g5backendserveconfig.G5BackendServeConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G5BackendServeControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="g5-backend-serve-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.g5backendservecontroller.G5BackendServeControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G5BackendServeDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="g5-backend-serve-dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.g5backendservedao.G5BackendServeDaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G5BackendServeEntityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="g5-backend-serve-entity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.g5backendserveentity.G5BackendServeEntityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G5BackendServeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="g5-backend-serve-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.g5backendserveservice.G5BackendServeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G5BackendServeUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="g5-backend-serve-utils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.g5backendserveutils.G5BackendServeUtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3348429c-75f6-4a13-b5f0-c1654d217145" name="更改" comment="" />
+      <created>1723105241245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723105241245</updated>
+      <workItem from="1723105242695" duration="280000" />
+      <workItem from="1723107054633" duration="741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
