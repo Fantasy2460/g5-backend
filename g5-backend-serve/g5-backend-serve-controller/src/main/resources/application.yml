@@ -1,0 +1,63 @@
+# 端口号
+server:
+  port: 8083
+
+# spring配置信息
+spring:
+#  profiles:
+#    active: 运行环境
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/rbac?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: Asia/Shanghai
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
+  data:
+    redis:
+      host: localhost
+      database: 0
+      port: 6379
+      connect-timeout: 10000
+      expire: 60000
+
+
+# 加载映射文件
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: t_
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.bosssoft.rbac.po.entity
+
+# 显示日志
+logging:
+  level:
+    com.bosssoft.rbac.dao: debug
+
+#jwt秘钥
+jwt:
+  secret: com.bosssoft.rbac
+  #过期时间
+  expiration: 90000000
+
+# 登录请求地址(自定义)
+request:
+  login:
+    url: /api/user/login
+
+# sql注入忽略的url地址（自定义）
+security:
+  sql:
+    excludes: # /images/* 此处为空 日后需要过滤自行添加

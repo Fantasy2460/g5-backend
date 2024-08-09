@@ -5,58 +5,126 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3348429c-75f6-4a13-b5f0-c1654d217145" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/g5-backend-serve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35e81c3ba9be4ad975d86ac07293786503e94254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd43a8550e78f7816bed27f9a1335196960a79d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/5/35e81c3ba9be4ad975d86ac07293786503e94254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fd43a8550e78f7816bed27f9a1335196960a79d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/g5-backend-serve-config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/annotation/ApiIdempotent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/annotation/ApiIdempotentInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/exception/CustomerAuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/exception/handler/ServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/log/WebLogCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/mybatis/CommonMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/mybatis/MybatisPlusOptLockerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/CustomerUserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/filter/CheckTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/handler/AnonymousAuthenticationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/handler/CustomerAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/handler/LoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/security/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/sql/inject/SqlInjectFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/sql/inject/SqlInjectHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/token/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/token/impl/TokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/web/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/web/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/g5-backend-serve-controller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/RbacApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/java/com/example/g5backend/serve/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/java/com/example/g5backend/serve/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/java/com/example/g5backend/serve/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/dto/PermissionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/po/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/po/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/PermissionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/RolePermissionsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/RoleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/RouterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/TokenVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/UserRolesVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backend/serve/entity/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/util/MenuTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/g5-backend-serve-utils/g5-backend-serve-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-config/pom.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-utils/src/main/java/com/example/g5backend/serve/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-utils/src/main/java/com/example/g5backend/serve/utils/LoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-utils/src/main/java/com/example/g5backend/serve/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve-utils/src/main/java/com/example/g5backend/serve/utils/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g5-backend-serve.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-config/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-config/src/main/java/com/bosssoft/g5backendserveconfig/G5BackendServeConfigApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backendservecontroller/G5BackendServeControllerApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/test/java/com/example/g5backendservecontroller/G5BackendServeControllerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/test/java/com/example/g5backendservecontroller/G5BackendServeControllerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/test/java/a/G5BackendServeControllerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-dao/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/java/com/example/g5backendservedao/G5BackendServeDaoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-dao/src/test/java/com/example/g5backendservedao/G5BackendServeDaoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-entity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/java/com/example/g5backendserveentity/G5BackendServeEntityApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/src/test/java/com/example/g5backendserveentity/G5BackendServeEntityApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backendserveservice/G5BackendServeServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/test/java/com/example/g5backendserveservice/G5BackendServeServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/test/java/com/example/g5backendserveservice/G5BackendServeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/test/java/1/G5BackendServeServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-utils/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/src/main/java/com/example/g5backendserveutils/G5BackendServeUtilsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/src/test/java/com/example/g5backendserveutils/G5BackendServeUtilsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/src/test/java/com/example/g5backendserveutils/G5BackendServeUtilsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-utils/src/test/java/1/G5BackendServeUtilsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_COMMON_BRANCH" value="master" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/g5-backend-serve-config" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,23 +142,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/桌面/resp/g5-backend/g5-backend-serve&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "E:/桌面/resp/g5-backend/g5-backend-serve/g5-backend-serve-dao/src/test/java",
+    "last_opened_file_path": "E:/桌面/resp/g5-backend/g5-backend-serve/g5-backend-serve-controller/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面\resp\g5-backend\g5-backend-serve\g5-backend-serve-controller\src\main\resources" />
+      <recent name="E:\桌面\resp\g5-backend\g5-backend-serve\g5-backend-serve-service\src\main\resources" />
+      <recent name="E:\桌面\resp\g5-backend\g5-backend-serve\g5-backend-serve-dao\src\main\resources" />
+      <recent name="E:\桌面\resp\g5-backend\g5-backend-serve\g5-backend-serve-utils\src\main\java" />
+      <recent name="E:\桌面\resp\g5-backend\g5-backend-serve\g5-backend-serve-service\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bosssoft.g5backend.serve.config.token.impl" />
+      <recent name="com.bosssoft.g5backend.serve.config.token" />
+      <recent name="com.example.g5backend.serve.service.util" />
+      <recent name="com.example.g5backend.serve" />
       <recent name="com.example.g5backendservecontroller" />
-      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,7 +183,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.G5BackendServeControllerApplication">
+  <component name="RunManager" selected="Spring Boot.RbacApplication">
     <configuration name="G5BackendServeConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="g5-backend-serve-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bosssoft.g5backendserveconfig.G5BackendServeConfigApplication" />
@@ -150,6 +233,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RbacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="g5-backend-serve-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.g5backend.serve.RbacApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.g5backend.serve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RbacApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -161,6 +262,7 @@
       <updated>1723105241245</updated>
       <workItem from="1723105242695" duration="280000" />
       <workItem from="1723107054633" duration="741000" />
+      <workItem from="1723108066159" duration="21571000" />
     </task>
     <servers />
   </component>

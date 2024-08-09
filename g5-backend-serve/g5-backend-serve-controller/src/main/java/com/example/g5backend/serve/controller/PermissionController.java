@@ -1,14 +1,14 @@
 package com.example.g5backend.serve.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.bosssoft.rbac.config.annotation.ApiIdempotent;
-import com.bosssoft.rbac.entity.dto.PermissionDTO;
-import com.bosssoft.rbac.entity.po.Permission;
-import com.bosssoft.rbac.entity.vo.PermissionVO;
-import com.bosssoft.rbac.entity.vo.RouterVO;
-import com.bosssoft.rbac.service.PermissionService;
-import com.bosssoft.rbac.utils.MenuTree;
-import com.bosssoft.rbac.utils.Result;
+import com.bosssoft.g5backend.serve.config.annotation.ApiIdempotent;
+import com.example.g5backend.serve.entity.dto.PermissionDTO;
+import com.example.g5backend.serve.entity.po.Permission;
+import com.example.g5backend.serve.entity.vo.PermissionVO;
+import com.example.g5backend.serve.entity.vo.RouterVO;
+import com.example.g5backend.serve.service.PermissionService;
+import com.example.g5backend.serve.service.util.MenuTree;
+import com.example.g5backend.serve.utils.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
