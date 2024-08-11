@@ -20,10 +20,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.util.ObjectUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -40,6 +38,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @RestController
 @RequestMapping("/api/sysUser")
+@CrossOrigin(origins = "http://localhost:9527")
 public class SysUserController {
 
     private static final String TOKEN = "token";
@@ -64,6 +63,7 @@ public class SysUserController {
      * @return
      */
     @PostMapping("refreshToken")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<TokenVO> refreshToken(HttpServletRequest request) {
         // 从head中获取token信息
         String token = request.getHeader(TOKEN);
@@ -106,6 +106,7 @@ public class SysUserController {
      * @return
      */
     @GetMapping("/getInfo")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result getInfo() {
         // 从Spring Security中获取用户信息
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
@@ -140,6 +141,7 @@ public class SysUserController {
      * @return
      */
     @PostMapping("/loginOut")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<Object> logout(HttpServletRequest request, HttpServletResponse response) {
         // 获取token
         String token = request.getParameter(TOKEN);
@@ -165,6 +167,7 @@ public class SysUserController {
      * @return
      */
     @GetMapping("/getMenuList")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<List<RouterVO>> getMenuList() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         User user = (User) authentication.getPrincipal();
@@ -181,6 +184,7 @@ public class SysUserController {
      * @return
      */
     @GetMapping("/apiIdempotent")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result apiIdempotent() {
         return tokenService.createToken();
     }

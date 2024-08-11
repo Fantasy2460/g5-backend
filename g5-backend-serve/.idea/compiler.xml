@@ -15,13 +15,10 @@
         <module name="g5-backend-serve-dao" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="g5-backend-serve-application" target="19" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="g5-backend-serve-application" options="-parameters" />
       <module name="g5-backend-serve-config" options="-parameters" />
       <module name="g5-backend-serve-controller" options="-parameters" />
       <module name="g5-backend-serve-dao" options="-parameters" />

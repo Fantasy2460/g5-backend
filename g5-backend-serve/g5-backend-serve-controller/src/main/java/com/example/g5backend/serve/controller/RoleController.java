@@ -28,6 +28,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/api/role")
+@CrossOrigin(origins = "http://localhost:9527")
 public class RoleController {
 
     @Autowired
@@ -38,6 +39,7 @@ public class RoleController {
      * @return
      */
     @GetMapping("/getList")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<List<RoleVO>> getList() {
         List<Role> roleList = roleService.list();
         List<RoleVO> roleVOList = new ArrayList<>();
@@ -60,6 +62,7 @@ public class RoleController {
      */
     @ApiIdempotent
     @PostMapping("/addRole")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result addRole(@RequestBody @Valid RoleVO roleVO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             String error = bindingResult.getAllErrors().get(0).getDefaultMessage();
@@ -89,6 +92,7 @@ public class RoleController {
      */
     @ApiIdempotent
     @PutMapping("/updateRole")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result updateUser(@RequestBody @Valid RoleVO roleVO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             String error = bindingResult.getAllErrors().get(0).getDefaultMessage();
@@ -117,6 +121,7 @@ public class RoleController {
      */
     @ApiIdempotent
     @PutMapping("/updatePermissions")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result updateRolePermissions(@RequestBody RoleVO roleVO) {
         Long[] permissionsId = MenuTree.makePermissionsId(roleVO.getRoutes()).toArray(new Long[0]);
         if (roleService.saveRolePermissions(roleVO.getId(), permissionsId)) {
@@ -132,6 +137,7 @@ public class RoleController {
      */
     @ApiIdempotent
     @DeleteMapping("/deleteRole/{id}")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<Object> deleteRole(@PathVariable @NotBlank Long id) {
         if (!roleService.countUsed(id)) {
             roleService.deleteRoleById(id);

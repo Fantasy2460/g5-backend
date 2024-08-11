@@ -35,6 +35,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/api/user")
+@CrossOrigin(origins = "http://localhost:9527")
 public class UserController {
 
     @Autowired
@@ -48,6 +49,7 @@ public class UserController {
      * @return
      */
     @GetMapping("/getList")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<List<UserVO>> getList() {
         List<User> userList = userService.list();
         List<UserVO> userVOList = new ArrayList<>();
@@ -68,6 +70,7 @@ public class UserController {
      */
     @ApiIdempotent
     @PostMapping("/addUser")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result addUser(@RequestBody @Valid UserVO userVO, BindingResult bindingResult) {
         UserDTO userDTO = new UserDTO();
         BeanUtils.copyProperties(userVO, userDTO);
@@ -97,6 +100,7 @@ public class UserController {
      */
     @ApiIdempotent
     @PutMapping("/updateUser")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result updateUser(@RequestBody @Valid UserVO userVO, BindingResult bindingResult) {
         UserDTO userDTO = new UserDTO();
         BeanUtils.copyProperties(userVO, userDTO);
@@ -127,6 +131,7 @@ public class UserController {
      */
     @ApiIdempotent
     @DeleteMapping("/deleteUser/{id}")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<Object> deleteUser(@PathVariable @NotBlank Long id) {
         if (userService.deleteUserById(id)) {
             return Result.ok().message("用户删除成功");
@@ -140,6 +145,7 @@ public class UserController {
      * @return
      */
     @GetMapping("/queryUser")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result queryUser(String username) {
         List<UserVO> userVOList = userService.findUsersByUserName(username);
         if (userVOList.isEmpty()) {
@@ -153,6 +159,7 @@ public class UserController {
      * @return
      */
     @GetMapping("/roles")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<List<UserRolesVO>> getAllUserRoles() {
         List<User> userList = userService.list();
         List<UserRolesVO> userRolesVOList = new ArrayList<>();
@@ -173,6 +180,7 @@ public class UserController {
      */
     @ApiIdempotent
     @PutMapping("/updateRoles")
+    @CrossOrigin(origins = "http://localhost:9527")
     public Result<Object> updateUserRoles(@RequestBody UserRolesVO userRolesVO) {
         if (userService.saveUserRoles(userRolesVO.getId(), Arrays.asList(userRolesVO.getRolesId()))) {
             return Result.ok().message("角色分配成功");
