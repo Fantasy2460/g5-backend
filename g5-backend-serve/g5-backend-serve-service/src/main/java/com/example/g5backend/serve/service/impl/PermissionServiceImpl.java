@@ -20,7 +20,9 @@ import java.util.List;
  **/
 @Service
 @Transactional(rollbackFor = RuntimeException.class)
+
 public class PermissionServiceImpl extends ServiceImpl<PermissionDao, Permission> implements PermissionService {
+
 
     @Override
     public List<Permission> findPermissionListByUserId(Long userId) {

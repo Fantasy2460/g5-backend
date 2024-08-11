@@ -41,6 +41,11 @@
         <dependency>
             <groupId>com.bosssoft</groupId>
             <artifactId>g5-backend-serve-service</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        <dependency>
+            <groupId>com.bosssoft</groupId>
+            <artifactId>g5-backend-serve-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

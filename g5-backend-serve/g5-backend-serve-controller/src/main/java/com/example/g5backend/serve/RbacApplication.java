@@ -4,6 +4,8 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Repository;
 
 /**
  * @program: rbac
@@ -13,7 +15,9 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  **/
 
 @MapperScan("com.example.g5backend.serve.dao")
+@ComponentScan({"com.bosssoft.g5backend.serve.config.redis"})
 @SpringBootApplication
+@Repository
 @ServletComponentScan
 public class RbacApplication {
 

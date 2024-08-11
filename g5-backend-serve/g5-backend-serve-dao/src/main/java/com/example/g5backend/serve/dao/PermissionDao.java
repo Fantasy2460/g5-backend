@@ -17,6 +17,7 @@ import java.util.List;
 @Mapper
 public interface PermissionDao extends BaseMapper<Permission> {
 
+
     /**
      * 根据用户id获取权限列表
      * @param userId

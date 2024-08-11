@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/g5-backend.iml" filepath="$PROJECT_DIR$/.idea/g5-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-config/g5-backend-serve-config.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-config/g5-backend-serve-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-controller/g5-backend-serve-controller.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-controller/g5-backend-serve-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-dao/g5-backend-serve-dao.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-dao/g5-backend-serve-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-entity/g5-backend-serve-entity.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-entity/g5-backend-serve-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-service/g5-backend-serve-service.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-service/g5-backend-serve-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-utils/g5-backend-serve-utils.iml" filepath="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-utils/g5-backend-serve-utils.iml" />
+    </modules>
+  </component>
+</project>

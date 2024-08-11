@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.g5backend.serve.dao.UserDao">
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.bosssoft.rbac.entity.po.User">
+    <resultMap id="BaseResultMap" type="com.example.g5backend.serve.entity.po.User">
         <id column="id" property="id" />
         <result column="username" property="username" />
         <result column="password" property="password" />

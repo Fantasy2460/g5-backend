@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring 应用程序上下文" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/bosssoft/g5backend/serve/config/mybatis/MyBatisConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/bosssoft/g5backend/serve/config/mybatis/MybatisPlusOptLockerConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/bosssoft/g5backend/serve/config/redis/RedisConfig.java</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="9e6f6778-973b-4d22-ba08-458a04bb8a29" />
+    <option name="uniqueId" value="beb9949f-2106-4b57-a2a0-4392356e2fcb" />
   </component>
 </module>

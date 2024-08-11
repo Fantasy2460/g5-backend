@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-controller" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-dao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-entity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g5-backend-serve/g5-backend-serve-utils" vcs="Git" />
+  </component>
+</project>

@@ -12,6 +12,7 @@ import com.example.g5backend.serve.utils.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,6 +30,7 @@ import java.util.stream.Collectors;
  **/
 @Slf4j
 @RestController
+@Repository
 @RequestMapping("/api/permission")
 public class PermissionController {
 

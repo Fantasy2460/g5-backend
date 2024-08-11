@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.g5backend.serve.dao.PermissionDao">
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.bosssoft.rbac.entity.po.Permission">
+    <resultMap id="BaseResultMap" type="com.example.g5backend.serve.entity.po.Permission">
         <id column="id" property="id"/>
         <result column="path" property="path"/>
         <result column="component" property="component"/>
@@ -18,7 +18,7 @@
         <result column="is_deleted" property="deleted"/>
     </resultMap>
 
-    <select id="findPermissionListByUserId" resultType="com.bosssoft.rbac.entity.po.Permission">
+    <select id="findPermissionListByUserId" resultType="com.example.g5backend.serve.entity.po.Permission">
         SELECT DISTINCT p.id, p.path, p.component, p.title, p.icon, p.code, p.pid
         FROM t_user AS u
                  LEFT JOIN t_user_role AS ur ON u.id = ur.u_id
