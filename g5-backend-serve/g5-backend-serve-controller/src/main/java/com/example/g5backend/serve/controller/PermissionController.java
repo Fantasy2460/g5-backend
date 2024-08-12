@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 @RestController
 @Repository
 @RequestMapping("/api/permission")
-@CrossOrigin(origins = "http://localhost:9527")
+@CrossOrigin(origins = "http://localhost:8083")
 public class PermissionController {
 
     @Autowired
@@ -43,7 +43,6 @@ public class PermissionController {
      * @return
      */
     @GetMapping("/getList")
-    @CrossOrigin(origins = "http://localhost:9527")
     public Result<List<RouterVO>> getList() {
         List<Permission> permissionList = permissionService.findPermissionList();
         List<Permission> collect = permissionList.stream()
@@ -61,7 +60,6 @@ public class PermissionController {
      */
     @ApiIdempotent
     @PostMapping("/addPermission")
-    @CrossOrigin(origins = "http://localhost:9527")
     public Result addPermission(@RequestBody @Valid PermissionVO permissionVO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             String error = bindingResult.getAllErrors().get(0).getDefaultMessage();
@@ -84,7 +82,6 @@ public class PermissionController {
      */
     @ApiIdempotent
     @PutMapping("/updatePermission")
-    @CrossOrigin(origins = "http://localhost:9527")
     public Result updatePermission(@RequestBody @Valid PermissionVO permissionVO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             String error = bindingResult.getAllErrors().get(0).getDefaultMessage();
@@ -109,7 +106,6 @@ public class PermissionController {
      */
     @ApiIdempotent
     @DeleteMapping("/deletePermission/{id}")
-    @CrossOrigin(origins = "http://localhost:9527")
     public Result deletePermission(@PathVariable @NotBlank Long id) {
         // 判断是否存在子部门 存在无法删除
         long pid = permissionService.count(new QueryWrapper<Permission>().eq("pid", id));
@@ -122,7 +118,6 @@ public class PermissionController {
 
     @PutMapping("/updateRoles")
     @ApiIdempotent
-    @CrossOrigin(origins = "http://localhost:9527")
     public Result updateRoles(@RequestBody PermissionVO permissionVO) {
         Long[] roleIds = permissionService.findRoleIdsByRoleNames(permissionVO.getRoles());
         if (permissionService.savePermissionRoles(permissionVO.getId(), roleIds)) {

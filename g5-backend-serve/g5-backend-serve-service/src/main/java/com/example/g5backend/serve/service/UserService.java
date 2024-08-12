@@ -5,15 +5,16 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.example.g5backend.serve.entity.dto.UserDTO;
 import com.example.g5backend.serve.entity.po.User;
 import com.example.g5backend.serve.entity.vo.UserVO;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 /**
  * @program: rbac
  * @description
  * @author: 寒旅
  * @create: 2022-06-10 14:48
  **/
+@Service
 public interface UserService extends IService<User> {
 
     /**

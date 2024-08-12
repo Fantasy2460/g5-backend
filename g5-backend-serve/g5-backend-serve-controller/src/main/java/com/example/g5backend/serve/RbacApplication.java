@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
@@ -15,11 +16,11 @@ import org.springframework.web.bind.annotation.CrossOrigin;
  * @create: 2022-06-16 19:10
  **/
 
-@MapperScan("com.example.g5backend.serve.dao")
-@ComponentScan({"com.bosssoft.g5backend.serve.config.redis"})
+@MapperScan({"com.example.g5backend.serve.dao","com.bosssoft.g5backend.serve.config.redis"})
 @SpringBootApplication
 @Repository
 @ServletComponentScan
+@ComponentScan(basePackages = {"com.example.g5backend.serve.utils","com.bosssoft.g5backend.serve.config", "com.example.g5backend.serve.service"})
 public class RbacApplication {
 
     public static void main(String[] args) {

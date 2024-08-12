@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3348429c-75f6-4a13-b5f0-c1654d217145" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/190dab0d-c086-469d-8ee6-86355500f489.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/190dab0d-c086-469d-8ee6-86355500f489.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-config/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/RbacApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/RbacApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/PermissionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/SysUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/mapper/PermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/RbacApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/RbacApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/PermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/PermissionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-controller/target/classes/com/example/g5backend/serve/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-service/src/main/java/com/example/g5backend/serve/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g5-backend-serve-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/g5-backend-serve-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +85,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\桌面\resp\g5-backend\g5-backend-serve\g5-backend-serve-application\src\main\java" />
@@ -231,7 +238,7 @@
       <workItem from="1723310056510" duration="315000" />
       <workItem from="1723310502561" duration="6179000" />
       <workItem from="1723346386871" duration="5250000" />
-      <workItem from="1723363902870" duration="4704000" />
+      <workItem from="1723363902870" duration="14702000" />
     </task>
     <servers />
   </component>
@@ -258,5 +265,16 @@
       <path value="$PROJECT_DIR$/g5-backend-serve-service" />
       <path value="$PROJECT_DIR$/g5-backend-serve-utils" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/g5-backend-serve-controller/src/main/java/com/example/g5backend/serve/config/CorsConfig.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
