@@ -113,6 +113,7 @@ public class SysUserController {
             log.error("用户信息查询失败");
             return Result.error().message("用户信息查询失败");
         }
+        System.out.println("token"+authentication);
         // 获取用户信息
         User user = (User) authentication.getPrincipal();
         // 获取角色权限编码字段

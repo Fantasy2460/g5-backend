@@ -2,4 +2,7 @@
 L
 java:S3740l"/Provide the parametrized type for this generic.(ÕĞˆª8‚ì¨©”2
 R
-java:S3740·"/Provide the parametrized type for this generic.(‘ˆ…úÿÿÿÿ8‚ì¨©”2
+java:S3740¸"/Provide the parametrized type for this generic.(‘ˆ…úÿÿÿÿ8‚ì¨©”2
+m
+java:S1192t"KUse already-defined constant 'TOKEN' instead of duplicating its value here.(›×Ûùÿÿÿÿ8ÎñÍØ”2
+L	java:S106t"+Replace this use of System.out by a logger.(›×Ûùÿÿÿÿ8©¨ÍØ”2

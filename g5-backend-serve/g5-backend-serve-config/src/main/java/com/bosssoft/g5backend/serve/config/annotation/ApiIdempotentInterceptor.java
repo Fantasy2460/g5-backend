@@ -34,7 +34,9 @@ public class ApiIdempotentInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        if (!(handler instanceof HandlerMethod)) {
+        log.info("进入拦截器");
+        if ((handler instanceof HandlerMethod)) {
+
             HandlerMethod handlerMethod = (HandlerMethod) handler;
             Method method = handlerMethod.getMethod();
             ApiIdempotent methodAnnotation = method.getAnnotation(ApiIdempotent.class);

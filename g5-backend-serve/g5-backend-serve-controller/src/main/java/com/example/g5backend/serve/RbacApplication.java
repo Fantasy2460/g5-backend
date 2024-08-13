@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @SpringBootApplication
 @Repository
 @ServletComponentScan
-@ComponentScan(basePackages = {"com.example.g5backend.serve.utils","com.bosssoft.g5backend.serve.config", "com.example.g5backend.serve.service"})
+@ComponentScan(basePackages = {"com.example.g5backend.serve.utils","com.bosssoft.g5backend.serve.config", "com.example.g5backend.serve.service","com.example.g5backend.serve","com.example.g5backend.serve.dao"})
 public class RbacApplication {
 
     public static void main(String[] args) {

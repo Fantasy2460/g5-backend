@@ -55,5 +55,7 @@ public interface PermissionDao extends BaseMapper<Permission> {
     @Select("SELECT id FROM t_role WHERE role_name = #{role}")
     Long selectRoleIdByRoleName(String role);
 
+    @Select("SELECT * FROM t_permission")
+    List<Permission> selectList();
 
 }

@@ -36,7 +36,7 @@ public interface UserDao extends BaseMapper<User> {
      * 根据用户名模糊查询
      * @return
      */
-    List<User> selectUsersByUsername();
+    User selectUsersByUsername(String username);
 
     /**
      * 根据用户id返回角色名称和id列表

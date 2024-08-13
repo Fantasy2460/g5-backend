@@ -123,3 +123,5 @@ jg5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/token
 qg5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/mybatis/MybatisPlusOptLockerConfig.java,5\1\513d84568325fe253678de7966614290ccf8b4e4
 ž
 ng5-backend-serve-config/src/main/java/com/bosssoft/g5backend/serve/config/mybatis/CommonMetaObjectHandler.java,5\4\54d1dd6ed674a35eb5ffa1839e15e88c127daa81
+J
+logInfo/app_2024-08-12.log,4\9\4991b64886bae060cf0cbe95ee524bd92f0c1a33

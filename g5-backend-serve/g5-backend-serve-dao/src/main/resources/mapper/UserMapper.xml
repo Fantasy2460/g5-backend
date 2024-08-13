@@ -30,10 +30,10 @@
         ORDER BY r.id ASC
     </select>
 
-    <select id="selectUsersByUsername" resultType="List" parameterType="String">
+    <select id="selectUsersByUsername" resultType="com.example.g5backend.serve.entity.po.User" parameterType="String">
         SELECT id,username,password,introduction,phone,email,avatar,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,create_time,update_time,operator,version
         FROM t_user
-        WHERE is_deleted=0 AND username LIKE #{username}
+        WHERE is_deleted=0 AND username = #{username}
     </select>
 
     <select id="findRolesIdByUserId" resultType="Long" parameterType="Long">

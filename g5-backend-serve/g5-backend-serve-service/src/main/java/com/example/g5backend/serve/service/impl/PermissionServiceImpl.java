@@ -7,6 +7,7 @@ import com.example.g5backend.serve.entity.dto.PermissionDTO;
 import com.example.g5backend.serve.entity.po.Permission;
 import com.example.g5backend.serve.service.PermissionService;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,10 +21,9 @@ import java.util.List;
  **/
 @Service
 @Transactional(rollbackFor = RuntimeException.class)
-
 public class PermissionServiceImpl extends ServiceImpl<PermissionDao, Permission> implements PermissionService {
-
-
+    @Autowired
+   private PermissionDao permissionDao;
     @Override
     public List<Permission> findPermissionListByUserId(Long userId) {
         return baseMapper.findPermissionListByUserId(userId);
@@ -36,7 +36,8 @@ public class PermissionServiceImpl extends ServiceImpl<PermissionDao, Permission
 
     @Override
     public List<Permission> findPermissionList() {
-        return baseMapper.selectList(null);
+
+        return permissionDao.selectList();
     }
 
     @Override
