@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @program: rbac
- * @description 封装token返回的信息
- * @author: 寒旅
- * @create: 2022-06-10 21:31
+ * @name: LoginResult
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 17:01
  **/
 @Data
 @NoArgsConstructor

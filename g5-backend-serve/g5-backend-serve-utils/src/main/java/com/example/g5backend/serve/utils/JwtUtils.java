@@ -14,10 +14,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @program: rbac
- * @description token工具类
- * @author: 寒旅
- * @create: 2022-06-10 21:32
+ * @name: JwtUtils
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 17:33
  **/
 @Data
 @ConfigurationProperties(prefix = "jwt")

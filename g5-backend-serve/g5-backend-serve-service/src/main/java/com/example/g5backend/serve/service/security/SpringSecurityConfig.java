@@ -18,10 +18,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import javax.annotation.Resource;
 
 /**
- * @program: rbac
+ * @name: SpringSecurityConfig
  * @description
- * @author: 寒旅
- * @create: 2022-06-10 20:43
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 16:01
  **/
 @Configuration
 @EnableWebSecurity

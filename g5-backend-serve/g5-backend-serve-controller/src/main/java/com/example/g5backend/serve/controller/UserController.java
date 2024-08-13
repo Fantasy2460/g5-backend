@@ -27,10 +27,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @program: rbac
+ * @name: UserController
  * @description 用户控制层
- * @author: 寒旅
- * @create: 2022-06-10 18:50
+ * @author: 李自豪
+ * @create: 2022-08-07 11:50
  **/
 @Slf4j
 @RestController

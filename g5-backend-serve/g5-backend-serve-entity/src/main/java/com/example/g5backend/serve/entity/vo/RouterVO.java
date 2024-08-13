@@ -9,10 +9,10 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description 根据Permission生成的前段路由结构
- * @author: 寒旅
- * @create: 2022-06-21 13:48
+ * @name: RouterVO
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 11:31
  **/
 @Data
 @JsonInclude(JsonInclude.Include.NON_EMPTY)

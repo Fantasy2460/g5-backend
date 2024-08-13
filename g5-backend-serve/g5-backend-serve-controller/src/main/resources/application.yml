@@ -29,22 +29,22 @@ spring:
 
 
 # 加载映射文件
-#mybatis-plus:
-#  global-config:
-#    db-config:
-#      table-prefix: t_
-#      id-type: auto
-#      logic-delete-value: 1
-#      logic-not-delete-value: 0
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-#  mapper-locations: classpath*:mapper/*.xml
-#  type-aliases-package: com.example.g5backend.serve.entity.po
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: t_
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.example.g5backend.serve.entity.po
 
-## 显示日志
-#logging:
-#  level:
-#    com.bosssoft.rbac.dao: debug
+# 显示日志
+logging:
+  level:
+    com.example.g5backend.serve.dao: debug
 
 #jwt秘钥
 jwt:

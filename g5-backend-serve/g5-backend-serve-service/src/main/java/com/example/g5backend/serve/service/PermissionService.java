@@ -7,10 +7,10 @@ import com.example.g5backend.serve.entity.po.Permission;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description
- * @author: 寒旅
- * @create: 2022-06-12 11:07
+ * @name: PermissionService
+ * @description 子系统模块服务层接口
+ * @author: 罗睿信
+ * @create: 2024-08-07 15:01
  **/
 public interface PermissionService extends IService<Permission> {
 

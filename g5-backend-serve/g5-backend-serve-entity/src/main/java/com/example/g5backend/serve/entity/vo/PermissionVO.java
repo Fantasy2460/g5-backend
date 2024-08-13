@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @program: rbac
+ * @name: PermissionVO
  * @description
- * @author: 寒旅
- * @create: 2022-06-23 12:56
+ * @author: 罗睿信
+ * @create: 2024-08-07 14:15
  **/
 @Data
 @NoArgsConstructor

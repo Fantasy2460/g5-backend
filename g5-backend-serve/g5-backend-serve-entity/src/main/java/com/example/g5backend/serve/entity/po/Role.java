@@ -8,10 +8,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @program: rbac
+ * @name: Role
  * @description
- * @author: 寒旅
- * @create: 2022-06-11 10:03
+ * @author: 曹鹏翔
+ * @create: 2024-08-07 10:32
  **/
 @Data
 @TableName("t_role")

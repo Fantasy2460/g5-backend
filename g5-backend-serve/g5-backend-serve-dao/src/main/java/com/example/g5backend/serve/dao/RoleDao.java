@@ -10,10 +10,10 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description
- * @author: 寒旅
- * @create: 2022-06-13 20:21
+ * @name: RoleDao
+ * @description: 用户dao层
+ * @author: 曹鹏翔
+ * @create: 2022-08-07 14:21
  **/
 @Mapper
 public interface RoleDao extends BaseMapper<Role> {

@@ -25,10 +25,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @program: rbac
+ * @name: CheckTokenFilter
  * @description
- * @author: 寒旅
- * @create: 2022-06-11 20:46
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 14:24
  **/
 @Slf4j
 @Data

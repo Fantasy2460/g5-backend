@@ -10,10 +10,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description 权限类
- * @author: 寒旅
- * @create: 2022-06-12 09:58
+ * @name: Permission
+ * @description
+ * @author: 罗睿鑫
+ * @create: 2024-08-07 10:01
  **/
 @Data
 @TableName("t_permission")

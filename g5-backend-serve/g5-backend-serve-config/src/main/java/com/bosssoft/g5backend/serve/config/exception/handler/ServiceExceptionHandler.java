@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @program: rbac
+ * @name: ServiceExceptionHandler
  * @description
- * @author: 寒旅
- * @create: 2022-06-16 18:21
+ * @author: 赵佶鑫
+ * @create: 2024-08-08 15:21
  **/
 
 /**/

@@ -13,10 +13,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @program: rbac
- * @description SQL注入过滤器
- * @author: 寒旅
- * @create: 2022-06-18 17:16
+ * @name: SqlInjectFilter
+ * @description
+ * @author: 罗睿信
+ * @create: 2024-08-08 11:23
  **/
 @Component
 @WebFilter(filterName = "SqlInjectFilter", urlPatterns = "/*")

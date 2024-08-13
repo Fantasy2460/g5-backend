@@ -18,10 +18,10 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import java.time.Duration;
 
 /**
- * @program: rbac
- * @description Redis配置类
- * @author: 寒旅
- * @create: 2022-06-11 20:37
+ * @name: RedisConfig
+ * @description
+ * @author: 罗睿信
+ * @create: 2024-08-08 10:41
  **/
 @Configuration
 public class RedisConfig {

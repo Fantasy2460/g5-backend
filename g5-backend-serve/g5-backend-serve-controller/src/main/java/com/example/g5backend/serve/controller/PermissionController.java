@@ -23,10 +23,10 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
- * @program: rbac
- * @description
- * @author: 寒旅
- * @create: 2022-06-22 10:10
+ * @name: PermissionController
+ * @description 子系统模块的开发
+ * @author: 罗睿信
+ * @create: 2024-08-07 10:10
  **/
 @Slf4j
 @RestController

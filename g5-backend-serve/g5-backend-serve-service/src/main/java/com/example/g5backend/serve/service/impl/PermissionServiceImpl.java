@@ -13,10 +13,10 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description
- * @author: 寒旅
- * @create: 2022-06-12 11:09
+ * @name: PermissionServiceImpl
+ * @description 子系统模块服务层接口
+ * @author: 罗睿信
+ * @create: 2024-08-07 15:01
  **/
 @Service
 @Transactional(rollbackFor = RuntimeException.class)

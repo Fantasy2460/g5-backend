@@ -8,10 +8,10 @@ import com.example.g5backend.serve.entity.po.Role;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description 角色服务层接口
- * @author: 寒旅
- * @create: 2022-06-21 10:18
+ * @name: RoleService
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:21
  **/
 public interface RoleService extends IService<Role> {
 

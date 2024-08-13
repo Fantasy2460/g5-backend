@@ -19,10 +19,10 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
- * @program: rbac
- * @description 用户认证处理类
- * @author: 寒旅
- * @create: 2022-06-10 20:16
+ * @name: CustomerUserDetailsServiceImpl
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:33
  **/
 @Slf4j
 @Component

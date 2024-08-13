@@ -7,10 +7,10 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @program: rbac
+ * @name: RoleVO
  * @description
- * @author: 寒旅
- * @create: 2022-06-11 10:03
+ * @author: 李自豪
+ * @create: 2024-08-07 15:42
  **/
 @Data
 public class RoleVO implements Serializable {

@@ -8,10 +8,10 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @program: rbac
+ * @name: RoleDTO
  * @description
- * @author: 寒旅
- * @create: 2022-06-11 10:03
+ * @author: 曹鹏翔
+ * @create: 2024-08-07 10:03
  **/
 @Data
 public class RoleDTO implements Serializable {

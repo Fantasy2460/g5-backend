@@ -10,10 +10,10 @@ import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
- * @program: rbac
+ * @name: RbacApplication
  * @description 接口拦截器
- * @author: 寒旅
- * @create: 2022-06-16 19:10
+ * @author: 赵佶鑫
+ * @create: 2022-08-07 19:10
  **/
 
 @MapperScan({"com.example.g5backend.serve.dao","com.bosssoft.g5backend.serve.config.redis"})

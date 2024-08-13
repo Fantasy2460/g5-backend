@@ -14,10 +14,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.UUID;
 
 /**
- * @program: rbac
+ * @name: TokenServiceImpl
  * @description
- * @author: 寒旅
- * @create: 2022-06-16 18:28
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 10:21
  **/
 @Service
 public class TokenServiceImpl implements TokenService {

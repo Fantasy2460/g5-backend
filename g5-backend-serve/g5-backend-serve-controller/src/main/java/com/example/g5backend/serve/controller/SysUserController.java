@@ -30,10 +30,10 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
- * @program: rbac
+ * PermissionController SysUserController
  * @description 系统用户控制器 用于控制用户登录、注销、刷新/生成token
- * @author: 寒旅
- * @create: 2022-06-12 09:29
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 20:29
  **/
 @Slf4j
 @RestController

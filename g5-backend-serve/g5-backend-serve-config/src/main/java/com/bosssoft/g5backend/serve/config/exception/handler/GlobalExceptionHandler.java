@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @program: rbac
- * @description 统一异常捕获
- * @author: 寒旅
- * @create: 2022-06-16 16:01
+ * @name: LoginResult
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 17:01
  **/
 
 @ControllerAdvice

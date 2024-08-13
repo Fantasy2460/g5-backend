@@ -16,10 +16,10 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @program: rbac
- * @description 匿名用户访问资源处理器
- * @author: 寒旅
- * @create: 2022-06-10 20:41
+ * @name: AnonymousAuthenticationHandler
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:31
  **/
 @Slf4j
 @Component

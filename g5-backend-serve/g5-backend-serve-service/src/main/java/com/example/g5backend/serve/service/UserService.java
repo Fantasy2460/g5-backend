@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 /**
- * @program: rbac
+ * @name: RoleService
  * @description
- * @author: 寒旅
- * @create: 2022-06-10 14:48
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:21
  **/
 @Service
 public interface UserService extends IService<User> {

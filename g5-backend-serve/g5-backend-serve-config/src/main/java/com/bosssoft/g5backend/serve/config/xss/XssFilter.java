@@ -6,10 +6,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * @program: rbac
- * @description 拦截防止注入漏洞（即防止XSS的跨站脚本攻击）
- * @author: 寒旅
- * @create: 2022-06-16 14:12
+ * @name: XssFilter
+ * @description
+ * @author: 李自豪
+ * @create: 2024-08-08 10:21
  **/
 @WebFilter(urlPatterns = "/*", filterName = "xssFilter")
 public class XssFilter implements Filter {

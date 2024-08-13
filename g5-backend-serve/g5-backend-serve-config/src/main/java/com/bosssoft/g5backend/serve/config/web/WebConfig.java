@@ -9,10 +9,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import javax.annotation.Resource;
 
 /**
- * @program: rbac
- * @description 添加接口幂等性拦截器
- * @author: 寒旅
- * @create: 2022-06-16 19:16
+ * @name: WebConfig
+ * @description
+ * @author: 曹鹏翔
+ * @create: 2024-08-08 10:31
  **/
 @Configuration
 public class WebConfig implements WebMvcConfigurer {

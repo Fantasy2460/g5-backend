@@ -17,10 +17,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @program: rbac
+ * @name: UserServiceImpl
  * @description
- * @author: 寒旅
- * @create: 2022-06-10 14:48
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:44
  **/
 @Service
 @Transactional(rollbackFor = RuntimeException.class)

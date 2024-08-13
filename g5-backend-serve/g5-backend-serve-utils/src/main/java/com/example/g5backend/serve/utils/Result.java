@@ -3,10 +3,10 @@ package com.example.g5backend.serve.utils;
 import lombok.Data;
 
 /**
- * @program: rbac
- * @description 统一前端返回值类型
- * @author: 寒旅
- * @create: 2022-06-10 20:28
+ * @name: Result
+ * @description
+ * @author: 李自豪
+ * @create: 2024-08-07 16:33
  **/
 @Data
 public class Result<T> {

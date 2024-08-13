@@ -15,10 +15,10 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @program: rbac
- * @description 认证用户访问无权限资源时处理器
- * @author: 寒旅
- * @create: 2022-06-10 20:35
+ * @name: CustomerAccessDeniedHandler
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 14:55
  **/
 @Slf4j
 @Component

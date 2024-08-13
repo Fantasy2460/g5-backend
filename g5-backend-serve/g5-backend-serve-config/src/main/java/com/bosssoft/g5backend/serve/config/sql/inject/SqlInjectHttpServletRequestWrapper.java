@@ -9,10 +9,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @program: rbac
- * @description SQL注入包装类
- * @author: 寒旅
- * @create: 2022-06-18 17:09
+ * @name: SqlInjectHttpServletRequestWrapper
+ * @description
+ * @author: 罗睿信
+ * @create: 2024-08-08 10:17
  **/
 public class SqlInjectHttpServletRequestWrapper extends HttpServletRequestWrapper {
     public static final Logger log = LoggerFactory.getLogger(SqlInjectHttpServletRequestWrapper .class);

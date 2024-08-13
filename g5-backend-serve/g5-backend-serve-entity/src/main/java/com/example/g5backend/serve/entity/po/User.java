@@ -14,10 +14,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @program: rbac
+ * @name: User
  * @description
- * @author: 寒旅
- * @create: 2022-06-10 14:01
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 10:27
  **/
 @Data
 @TableName("t_user")

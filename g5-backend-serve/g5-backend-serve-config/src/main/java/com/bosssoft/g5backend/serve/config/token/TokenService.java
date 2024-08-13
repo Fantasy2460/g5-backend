@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 
 
 /**
- * @program: rbac
- * @description 用户实现接口幂等性的Token服务接口
- * @author: 寒旅
- * @create: 2022-06-16 18:24
+ * @name: TokenService
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-08 11:01
  **/
 @Service
 public interface TokenService {

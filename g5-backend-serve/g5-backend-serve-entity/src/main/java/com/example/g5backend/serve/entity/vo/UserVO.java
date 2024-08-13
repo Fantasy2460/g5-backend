@@ -13,10 +13,10 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 /**
- * @program: rbac
- * @description 用于向前端返回用户数据
- * @author: 寒旅
- * @create: 2022-06-12 15:05
+ * @name: UserVO
+ * @description
+ * @author: 李自豪
+ * @create: 2024-08-07 11:17
  **/
 @Data
 @NoArgsConstructor

@@ -17,10 +17,10 @@ import javax.servlet.http.HttpSession;
 import java.lang.reflect.Method;
 
 /**
- * @program: rbac
- * @description 接口拦截器
- * @author: 寒旅
- * @create: 2022-06-16 19:10
+ * @name: LoginResult
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 17:01
  **/
 @Slf4j
 @Component

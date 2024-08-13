@@ -5,10 +5,10 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @program: rbac
+ * @name: UserDTO
  * @description
- * @author: 寒旅
- * @create: 2022-06-10 14:01
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 11:01
  **/
 @Data
 public class UserDTO implements Serializable {

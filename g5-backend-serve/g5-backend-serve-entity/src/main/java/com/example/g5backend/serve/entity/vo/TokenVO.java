@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @program: rbac
- * @description 向前端返回的Token类
- * @author: 寒旅
- * @create: 2022-06-12 09:26
+ * @name: TokenVO
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 11:02
  **/
 @Data
 @NoArgsConstructor

@@ -9,10 +9,10 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description
- * @author: 寒旅
- * @create: 2022-06-10 14:14
+ * @name: UserDao
+ * @description: 用户dao层
+ * @author: 赵佶鑫
+ * @create: 2022-08-07 14:34
  **/
 @Mapper
 public interface UserDao extends BaseMapper<User> {

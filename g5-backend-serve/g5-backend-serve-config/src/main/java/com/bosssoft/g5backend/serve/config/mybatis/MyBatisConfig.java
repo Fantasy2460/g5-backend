@@ -13,11 +13,9 @@ import javax.sql.DataSource;
 
 /**
  * className: MyBatisConfig
- *
- * @author ZhaoJixin
+ * @author 曹鹏翔
  * @description:
- * @date 2024/8/9 17:50
- * @version: 1.0
+ * @date 2024/8/8 14:50
  */
 @Configuration
 @MapperScan(basePackages = "com.example.g5backend.serve.dao", sqlSessionFactoryRef = "sqlSessionFactory")

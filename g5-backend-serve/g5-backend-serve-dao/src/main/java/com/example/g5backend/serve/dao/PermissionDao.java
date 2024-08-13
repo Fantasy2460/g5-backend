@@ -9,10 +9,10 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * @program: rbac
- * @description
- * @author: 寒旅
- * @create: 2022-06-12 10:11
+ * @name: PermissionDao
+ * @description 子系统模块Dao层
+ * @author: 罗睿信
+ * @create: 2024-08-07 11:11
  **/
 @Mapper
 public interface PermissionDao extends BaseMapper<Permission> {

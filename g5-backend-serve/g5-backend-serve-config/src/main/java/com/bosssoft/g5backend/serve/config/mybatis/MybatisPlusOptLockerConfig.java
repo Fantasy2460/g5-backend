@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @program: rbac
- * @description mybatis乐观锁配置类
- * @author: 寒旅
- * @create: 2022-06-15 15:16
+ * @name: MybatisPlusOptLockerConfig
+ * @description
+ * @author: 曹鹏翔
+ * @create: 2024-08-08 11:12
  **/
 @EnableTransactionManagement
 @Configuration

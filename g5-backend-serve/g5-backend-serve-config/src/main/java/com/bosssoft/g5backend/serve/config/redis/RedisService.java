@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @program: rbac
+ * @name: RedisService
  * @description
- * @author: 寒旅
- * @create: 2022-06-11 20:42
+ * @author: 罗睿信
+ * @create: 2024-08-08 10:24
  **/
 @Component
 public class RedisService {

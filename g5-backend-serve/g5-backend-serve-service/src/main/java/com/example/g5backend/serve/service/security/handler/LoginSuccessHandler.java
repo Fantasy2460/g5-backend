@@ -22,10 +22,10 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @program: rbac
- * @description 登录成功认证处理类
- * @author: 寒旅
- * @create: 2022-06-10 20:20
+ * @name: LoginSuccessHandler
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:11
  **/
 @Component
 public class LoginSuccessHandler implements AuthenticationSuccessHandler {

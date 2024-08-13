@@ -15,10 +15,10 @@ import java.util.Objects;
 import java.util.Optional;
 
 /**
- * @program: rbac
- * @description 根据Permission生成菜单树的工具类
- * @author: 寒旅
- * @create: 2022-06-21 13:54
+ * @name: MenuTree
+ * @description
+ * @author: 李自豪
+ * @create: 2024-08-07 15:47
  **/
 @Component
 public class MenuTree {

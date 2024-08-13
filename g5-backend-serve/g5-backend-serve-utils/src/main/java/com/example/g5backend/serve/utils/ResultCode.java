@@ -1,10 +1,10 @@
 package com.example.g5backend.serve.utils;
 
 /**
- * @program: rbac
+ * @name: ResultCode
  * @description
- * @author: 寒旅
- * @create: 2022-06-10 20:27
+ * @author: 曹鹏翔
+ * @create: 2024-08-07 16:41
  **/
 public class ResultCode {
 

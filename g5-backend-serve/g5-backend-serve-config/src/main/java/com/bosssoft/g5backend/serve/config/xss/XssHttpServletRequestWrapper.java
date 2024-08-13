@@ -15,10 +15,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * @program: rbac
+ * @name: XssHttpServletRequestWrapper
  * @description
- * @author: 寒旅
- * @create: 2022-06-16 14:13
+ * @author: 李自豪
+ * @create: 2024-08-08 10:01
  **/
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper {
 

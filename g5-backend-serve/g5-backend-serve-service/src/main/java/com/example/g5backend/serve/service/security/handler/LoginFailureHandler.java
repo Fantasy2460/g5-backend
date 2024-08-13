@@ -18,10 +18,10 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @program: rbac
- * @description 登录失败认证处理类
- * @author: 寒旅
- * @create: 2022-06-10 20:23
+ * @name: LoginFailureHandler
+ * @description
+ * @author: 赵佶鑫
+ * @create: 2024-08-07 15:42
  **/
 @Slf4j
 @Component

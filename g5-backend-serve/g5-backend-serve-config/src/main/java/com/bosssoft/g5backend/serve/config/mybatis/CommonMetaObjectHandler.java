@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 /**
- * @program: rbac
- * @description 自动填充类:在新增和更新时自动填充时间和操作者
- * @author: 寒旅
- * @create: 2022-06-14 21:35
+ * @name: CommonMetaObjectHandler
+ * @description
+ * @author: 曹鹏翔
+ * @create: 2024-08-08 14:21
  **/
 @Component
 public class CommonMetaObjectHandler implements MetaObjectHandler {
