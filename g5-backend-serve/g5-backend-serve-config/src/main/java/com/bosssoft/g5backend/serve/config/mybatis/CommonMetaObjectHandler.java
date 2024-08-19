@@ -1,7 +1,7 @@
 package com.bosssoft.g5backend.serve.config.mybatis;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
-import com.example.g5backend.serve.entity.po.User;
+import com.bosssoft.g5backend.serve.entity.po.User;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

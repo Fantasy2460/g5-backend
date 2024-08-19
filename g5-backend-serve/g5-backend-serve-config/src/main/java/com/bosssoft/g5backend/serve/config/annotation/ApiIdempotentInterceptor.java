@@ -2,7 +2,7 @@ package com.bosssoft.g5backend.serve.config.annotation;
 
 import com.alibaba.druid.util.StringUtils;
 import com.bosssoft.g5backend.serve.config.token.TokenService;
-import com.example.g5backend.serve.utils.Result;
+import com.bosssoft.g5backend.serve.utils.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
