@@ -7970,3 +7970,5 @@ java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceH
 2024-08-13 18:09:15,619 [http-nio-8083-exec-10] INFO  c.b.g.s.config.log.WebLogCollect - URL : http://localhost:8083/api/user/roles
 2024-08-13 18:09:15,619 [http-nio-8083-exec-10] INFO  c.b.g.s.config.log.WebLogCollect - HTTP_METHOD : GET
 2024-08-13 18:09:15,619 [http-nio-8083-exec-10] INFO  c.b.g.s.config.log.WebLogCollect - IP : 0:0:0:0:0:0:0:1
+2024-08-13 18:15:02,476 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-13 18:15:02,481 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
