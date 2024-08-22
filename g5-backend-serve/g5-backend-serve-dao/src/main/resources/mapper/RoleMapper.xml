@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.g5backend.serve.dao.RoleDao">
+<mapper namespace="com.bosssoft.g5backend.serve.dao.RoleDao">
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.example.g5backend.serve.entity.po.Role">
+    <resultMap id="BaseResultMap" type="com.bosssoft.g5backend.serve.entity.po.Role">
         <id column="id" property="id"/>
         <result column="key" property="key"/>
         <result column="name" property="name"/>
@@ -14,7 +14,7 @@
         <result column="is_deleted" property="deleted"/>
     </resultMap>
 
-    <select id="selectRouteByRoleId" resultType="com.example.g5backend.serve.entity.po.Permission">
+    <select id="selectRouteByRoleId" resultType="com.bosssoft.g5backend.serve.entity.po.Permission">
         SELECT DISTINCT p.id, p.path, p.component, p.title, p.icon, p.code, p.pid
         FROM t_role AS r
                  LEFT JOIN t_role_permission AS rp on rp.r_id = r.id

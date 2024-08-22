@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rbac.user.dao.UserDao">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rbac.common.entity.po.User">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="introduction" property="introduction" />
+        <result column="phone" property="phone" />
+        <result column="email" property="email" />
+        <result column="avatar" property="avatar" />
+        <result column="is_account_non_expired" property="isAccountNonExpired" />
+        <result column="is_account_non_locked" property="isAccountNonLocked" />
+        <result column="is_credentials_non_expired" property="isCredentialsNonExpired" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="is_deleted" property="deleted" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="operator" property="operator" />
+    </resultMap>
+
+    <select id="findRolesByUserId" resultType="String" parameterType="Long">
+        SELECT r.role_name
+        FROM t_role AS r
+            LEFT JOIN t_user_role AS ur ON r.id = ur.r_id
+            LEFT JOIN t_user AS u ON u.id = ur.u_id
+        WHERE u.id = #{userId}
+        ORDER BY r.id ASC
+    </select>
+
+    <select id="selectUsersByUsername" resultType="com.rbac.common.entity.po.User" parameterType="String">
+        SELECT id,username,password,introduction,phone,email,avatar,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,create_time,update_time,operator,version
+        FROM t_user
+        WHERE is_deleted=0 AND username = #{username}
+    </select>
+
+    <select id="findRolesIdByUserId" resultType="Long" parameterType="Long">
+        SELECT r.id
+        FROM t_role AS r
+                 LEFT JOIN t_user_role AS ur ON r.id = ur.r_id
+                 LEFT JOIN t_user AS u ON u.id = ur.u_id
+        WHERE u.id = #{userId}
+        ORDER BY r.id ASC
+    </select>
+
+    <insert id="saveUserRoles">
+        insert into t_user_role(u_id,r_id) values
+        <foreach collection="rolesId" item="item" index="index" separator=",">
+            (#{userId},#{item})
+        </foreach>
+    </insert>
+
+</mapper>

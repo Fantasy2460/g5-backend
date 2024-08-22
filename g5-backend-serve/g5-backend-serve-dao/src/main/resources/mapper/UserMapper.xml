@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.g5backend.serve.dao.UserDao">
+<mapper namespace="com.bosssoft.g5backend.serve.dao.UserDao">
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.example.g5backend.serve.entity.po.User">
+    <resultMap id="BaseResultMap" type="com.bosssoft.g5backend.serve.entity.po.User">
         <id column="id" property="id" />
         <result column="username" property="username" />
         <result column="password" property="password" />
@@ -30,7 +30,7 @@
         ORDER BY r.id ASC
     </select>
 
-    <select id="selectUsersByUsername" resultType="com.example.g5backend.serve.entity.po.User" parameterType="String">
+    <select id="selectUsersByUsername" resultType="com.bosssoft.g5backend.serve.entity.po.User" parameterType="String">
         SELECT id,username,password,introduction,phone,email,avatar,is_account_non_expired,is_account_non_locked,is_credentials_non_expired,is_enabled,create_time,update_time,operator,version
         FROM t_user
         WHERE is_deleted=0 AND username = #{username}

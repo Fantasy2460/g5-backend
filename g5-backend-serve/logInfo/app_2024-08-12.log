@@ -3,9 +3,9 @@
 2024-08-12 12:41:49,046 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2024-08-12 12:41:49,048 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2024-08-12 12:41:49,083 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
-2024-08-12 12:41:49,169 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'permissionDao' and 'com.example.g5backend.serve.dao.PermissionDao' mapperInterface. Bean already defined with the same name!
-2024-08-12 12:41:49,169 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'roleDao' and 'com.example.g5backend.serve.dao.RoleDao' mapperInterface. Bean already defined with the same name!
-2024-08-12 12:41:49,169 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.example.g5backend.serve.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2024-08-12 12:41:49,169 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'permissionDao' and 'dao.com.bosssoft.g5backend.serve.PermissionDao' mapperInterface. Bean already defined with the same name!
+2024-08-12 12:41:49,169 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'roleDao' and 'dao.com.bosssoft.g5backend.serve.RoleDao' mapperInterface. Bean already defined with the same name!
+2024-08-12 12:41:49,169 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'dao.com.bosssoft.g5backend.serve.UserDao' mapperInterface. Bean already defined with the same name!
 2024-08-12 12:41:49,170 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.g5backend.serve.dao, com.bosssoft.g5backend.serve.config.redis]' package. Please check your configuration.
 2024-08-12 12:41:49,619 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
 2024-08-12 12:41:49,627 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
@@ -15,7 +15,7 @@
 2024-08-12 12:41:49,784 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1276 ms
 2024-08-12 12:41:50,027 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
 2024-08-12 12:41:50,137 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
-2024-08-12 12:41:50,865 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d258eff, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e26f1ed, org.springframework.security.web.header.HeaderWriterFilter@5974b7e8, org.springframework.web.filter.CorsFilter@64502326, org.springframework.security.web.authentication.logout.LogoutFilter@746c411c, CheckTokenFilter(loginUrl=/api/user/login, redisService=com.bosssoft.g5backend.serve.config.redis.RedisService@1823b9c4, jwtUtils=JwtUtils(secret=com.bosssoft.rbac, expiration=90000000), customerUserDetailsService=com.example.g5backend.serve.service.security.CustomerUserDetailsServiceImpl@5b5dce5c, loginFailureHandler=com.example.g5backend.serve.service.security.handler.LoginFailureHandler@7f4701b1), org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@45e6d1e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25c2a9e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32f32623, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dca31eb, org.springframework.security.web.session.SessionManagementFilter@66bf40e5, org.springframework.security.web.access.ExceptionTranslationFilter@183ade54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b1b19cf]
+2024-08-12 12:41:50,865 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d258eff, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e26f1ed, org.springframework.security.web.header.HeaderWriterFilter@5974b7e8, org.springframework.web.filter.CorsFilter@64502326, org.springframework.security.web.authentication.logout.LogoutFilter@746c411c, CheckTokenFilter(loginUrl=/api/user/login, redisService=com.bosssoft.g5backend.serve.config.redis.RedisService@1823b9c4, jwtUtils=JwtUtils(secret=com.bosssoft.rbac, expiration=90000000), customerUserDetailsService=security.service.com.bosssoft.g5backend.serve.CustomerUserDetailsServiceImpl@5b5dce5c, loginFailureHandler=handler.security.service.com.bosssoft.g5backend.serve.LoginFailureHandler@7f4701b1), org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@45e6d1e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25c2a9e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32f32623, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dca31eb, org.springframework.security.web.session.SessionManagementFilter@66bf40e5, org.springframework.security.web.access.ExceptionTranslationFilter@183ade54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b1b19cf]
 2024-08-12 12:41:51,160 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
 2024-08-12 12:41:51,175 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
 2024-08-12 12:41:51,183 [main] INFO  c.e.g5backend.serve.RbacApplication - Started RbacApplication in 3.039 seconds (JVM running for 3.927)
@@ -23,7 +23,7 @@
 2024-08-12 12:41:55,155 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-08-12 12:41:55,156 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 2024-08-12 12:41:55,808 [http-nio-8083-exec-1] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
-org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid bound statement (not found): com.example.g5backend.serve.dao.UserDao.selectList
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid bound statement (not found): dao.com.bosssoft.g5backend.serve.UserDao.selectList
 	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108)
 	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
 	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
@@ -33,7 +33,7 @@ org.springframework.security.authentication.InternalAuthenticationServiceExcepti
 	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
-	at com.example.g5backend.serve.service.security.filter.CheckTokenFilter.doFilterInternal(CheckTokenFilter.java:68)
+	at filter.security.service.com.bosssoft.g5backend.serve.CheckTokenFilter.doFilterInternal(CheckTokenFilter.java:68)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
@@ -86,7 +86,7 @@ org.springframework.security.authentication.InternalAuthenticationServiceExcepti
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
-Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.g5backend.serve.dao.UserDao.selectList
+Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): dao.com.bosssoft.g5backend.serve.UserDao.selectList
 	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
 	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
 	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
@@ -100,8 +100,8 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:159)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at com.sun.proxy.$Proxy86.selectOne(Unknown Source)
-	at com.example.g5backend.serve.service.impl.UserServiceImpl.findUserByUserName(UserServiceImpl.java:51)
-	at com.example.g5backend.serve.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$290656ed.invoke(<generated>)
+	at impl.service.com.bosssoft.g5backend.serve.UserServiceImpl.findUserByUserName(UserServiceImpl.java:51)
+	at impl.service.com.bosssoft.g5backend.serve.UserServiceImpl$$FastClassBySpringCGLIB$$290656ed.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
@@ -112,8 +112,8 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.example.g5backend.serve.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$ee3e6088.findUserByUserName(<generated>)
-	at com.example.g5backend.serve.service.security.CustomerUserDetailsServiceImpl.loadUserByUsername(CustomerUserDetailsServiceImpl.java:39)
+	at impl.service.com.bosssoft.g5backend.serve.UserServiceImpl$$EnhancerBySpringCGLIB$$ee3e6088.findUserByUserName(<generated>)
+	at security.service.com.bosssoft.g5backend.serve.CustomerUserDetailsServiceImpl.loadUserByUsername(CustomerUserDetailsServiceImpl.java:39)
 	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:93)
 	... 61 common frames omitted
 2024-08-12 12:41:55,811 [http-nio-8083-exec-1] ERROR c.e.g.s.s.s.h.LoginFailureHandler - 账户不存在,登录失败！
@@ -124,9 +124,9 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 2024-08-12 12:43:57,614 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
 2024-08-12 12:43:57,615 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2024-08-12 12:43:57,650 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
-2024-08-12 12:43:57,736 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'permissionDao' and 'com.example.g5backend.serve.dao.PermissionDao' mapperInterface. Bean already defined with the same name!
-2024-08-12 12:43:57,737 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'roleDao' and 'com.example.g5backend.serve.dao.RoleDao' mapperInterface. Bean already defined with the same name!
-2024-08-12 12:43:57,737 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.example.g5backend.serve.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2024-08-12 12:43:57,736 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'permissionDao' and 'dao.com.bosssoft.g5backend.serve.PermissionDao' mapperInterface. Bean already defined with the same name!
+2024-08-12 12:43:57,737 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'roleDao' and 'dao.com.bosssoft.g5backend.serve.RoleDao' mapperInterface. Bean already defined with the same name!
+2024-08-12 12:43:57,737 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'dao.com.bosssoft.g5backend.serve.UserDao' mapperInterface. Bean already defined with the same name!
 2024-08-12 12:43:57,738 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.g5backend.serve.dao, com.bosssoft.g5backend.serve.config.redis]' package. Please check your configuration.
 2024-08-12 12:43:58,163 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
 2024-08-12 12:43:58,170 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
@@ -136,7 +136,7 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 2024-08-12 12:43:58,334 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
 2024-08-12 12:43:58,576 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
 2024-08-12 12:43:58,678 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
-2024-08-12 12:43:59,328 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2443abd6, org.springframework.security.web.context.SecurityContextPersistenceFilter@51efb731, org.springframework.security.web.header.HeaderWriterFilter@32d418a9, org.springframework.web.filter.CorsFilter@674da77b, org.springframework.security.web.authentication.logout.LogoutFilter@1c57f6b2, CheckTokenFilter(loginUrl=/api/user/login, redisService=com.bosssoft.g5backend.serve.config.redis.RedisService@431e86b1, jwtUtils=JwtUtils(secret=com.bosssoft.rbac, expiration=90000000), customerUserDetailsService=com.example.g5backend.serve.service.security.CustomerUserDetailsServiceImpl@35c4e864, loginFailureHandler=com.example.g5backend.serve.service.security.handler.LoginFailureHandler@32a2a6be), org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@36776c32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45e6d1e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3281dfc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bd3eff4, org.springframework.security.web.session.SessionManagementFilter@746c411c, org.springframework.security.web.access.ExceptionTranslationFilter@71aaf151, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ac4c3f7]
+2024-08-12 12:43:59,328 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2443abd6, org.springframework.security.web.context.SecurityContextPersistenceFilter@51efb731, org.springframework.security.web.header.HeaderWriterFilter@32d418a9, org.springframework.web.filter.CorsFilter@674da77b, org.springframework.security.web.authentication.logout.LogoutFilter@1c57f6b2, CheckTokenFilter(loginUrl=/api/user/login, redisService=com.bosssoft.g5backend.serve.config.redis.RedisService@431e86b1, jwtUtils=JwtUtils(secret=com.bosssoft.rbac, expiration=90000000), customerUserDetailsService=security.service.com.bosssoft.g5backend.serve.CustomerUserDetailsServiceImpl@35c4e864, loginFailureHandler=handler.security.service.com.bosssoft.g5backend.serve.LoginFailureHandler@32a2a6be), org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@36776c32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45e6d1e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3281dfc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bd3eff4, org.springframework.security.web.session.SessionManagementFilter@746c411c, org.springframework.security.web.access.ExceptionTranslationFilter@71aaf151, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ac4c3f7]
 2024-08-12 12:43:59,648 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
 2024-08-12 12:43:59,664 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
 2024-08-12 12:43:59,672 [main] INFO  c.e.g5backend.serve.RbacApplication - Started RbacApplication in 2.959 seconds (JVM running for 3.917)
@@ -144,7 +144,7 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 2024-08-12 12:44:02,381 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-08-12 12:44:02,383 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 2024-08-12 12:44:03,183 [http-nio-8083-exec-2] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
-org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid bound statement (not found): com.example.g5backend.serve.dao.UserDao.selectList
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid bound statement (not found): dao.com.bosssoft.g5backend.serve.UserDao.selectList
 	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108)
 	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
 	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
@@ -154,7 +154,7 @@ org.springframework.security.authentication.InternalAuthenticationServiceExcepti
 	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
-	at com.example.g5backend.serve.service.security.filter.CheckTokenFilter.doFilterInternal(CheckTokenFilter.java:68)
+	at filter.security.service.com.bosssoft.g5backend.serve.CheckTokenFilter.doFilterInternal(CheckTokenFilter.java:68)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
@@ -207,7 +207,7 @@ org.springframework.security.authentication.InternalAuthenticationServiceExcepti
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
-Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.g5backend.serve.dao.UserDao.selectList
+Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): dao.com.bosssoft.g5backend.serve.UserDao.selectList
 	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
 	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
 	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
@@ -221,8 +221,8 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:159)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at com.sun.proxy.$Proxy86.selectOne(Unknown Source)
-	at com.example.g5backend.serve.service.impl.UserServiceImpl.findUserByUserName(UserServiceImpl.java:51)
-	at com.example.g5backend.serve.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$290656ed.invoke(<generated>)
+	at impl.service.com.bosssoft.g5backend.serve.UserServiceImpl.findUserByUserName(UserServiceImpl.java:51)
+	at impl.service.com.bosssoft.g5backend.serve.UserServiceImpl$$FastClassBySpringCGLIB$$290656ed.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
@@ -233,8 +233,8 @@ Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.example.g5backend.serve.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$870ca841.findUserByUserName(<generated>)
-	at com.example.g5backend.serve.service.security.CustomerUserDetailsServiceImpl.loadUserByUsername(CustomerUserDetailsServiceImpl.java:39)
+	at impl.service.com.bosssoft.g5backend.serve.UserServiceImpl$$EnhancerBySpringCGLIB$$870ca841.findUserByUserName(<generated>)
+	at security.service.com.bosssoft.g5backend.serve.CustomerUserDetailsServiceImpl.loadUserByUsername(CustomerUserDetailsServiceImpl.java:39)
 	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:93)
 	... 61 common frames omitted
 2024-08-12 12:44:03,186 [http-nio-8083-exec-2] ERROR c.e.g.s.s.s.h.LoginFailureHandler - 账户不存在,登录失败！
@@ -264,7 +264,7 @@ org.springframework.security.access.AccessDeniedException: Access is denied
 	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
-	at com.example.g5backend.serve.service.security.filter.CheckTokenFilter.doFilterInternal(CheckTokenFilter.java:68)
+	at filter.security.service.com.bosssoft.g5backend.serve.CheckTokenFilter.doFilterInternal(CheckTokenFilter.java:68)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)

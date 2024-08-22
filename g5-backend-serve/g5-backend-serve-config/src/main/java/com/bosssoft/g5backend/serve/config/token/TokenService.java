@@ -1,6 +1,6 @@
 package com.bosssoft.g5backend.serve.config.token;
 
-import com.example.g5backend.serve.utils.Result;
+import com.bosssoft.g5backend.serve.utils.Result;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;

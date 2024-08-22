@@ -1,0 +1,35 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: rbac-permission
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  # 确保这里的地址和端口正确
+        config:
+          server-addr: localhost:8848  # 同样检查配置管理的地址
+    #  profiles:
+    #    active: 运行环境
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/rbac?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+  redis:
+    host: localhost
+    port: 6379
+    database: 3
+    connect-timeout: 10000
+    #自定义属性 过期时间
+    expire: 60000
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: Asia/Shanghai
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
+
+

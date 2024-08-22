@@ -1,0 +1,11 @@
+
+G
+java:S5855R",Remove or rework this redundant alternative.(©€Ù÷ÿÿÿÿÿ
+g
+java:S5998P"LRefactor this repetition that can lead to a stack overflow for large inputs.(œŠýžýÿÿÿÿ
+H
+java:S6395P"-Unwrap this unnecessarily grouped subpattern.(œŠýžýÿÿÿÿ
+H
+java:S6395P"-Unwrap this unnecessarily grouped subpattern.(œŠýžýÿÿÿÿ
+o
+java:S5843P"TSimplify this regular expression to reduce its complexity from 27 to the 20 allowed.(œŠýžýÿÿÿÿ

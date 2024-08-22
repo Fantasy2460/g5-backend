@@ -3,7 +3,7 @@ package com.bosssoft.g5backend.serve.config.token.impl;
 import com.bosssoft.g5backend.serve.config.exception.ServiceException;
 import com.bosssoft.g5backend.serve.config.redis.RedisService;
 import com.bosssoft.g5backend.serve.config.token.TokenService;
-import com.example.g5backend.serve.utils.Result;
+import com.bosssoft.g5backend.serve.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;

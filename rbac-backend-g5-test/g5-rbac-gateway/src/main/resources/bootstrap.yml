@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: rbac-gateway
+  #    name: gateway-router
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  # 确保这里的地址和端口正确
+
+
+
+#      config:
+#        # nacos config服务器的地址
+#        server-addr: localhost:8848  # 同样检查配置管理的地址
+#        namespace: public  # nacos的命名空间
+#        file-extension: yaml
+#        extension-configs: # 读取多个配置
+#          - data-id: gateway-router
+#            group: RBAC-GATEWAY
+#            refresh: true
+#          - data-id: gateway-special-list
+#            group: RBAC-GATEWAY
+#            refresh: true
+#          - data-id: test
+#            group: DEFAULT_GROUP
+#            refresh: true
+#    gateway: #存在nacos中
+#      routes: #配置请求转发，
+#        - id: user-server
+#          uri: http://localhost:8001
+#          order: 1
+#          predicates:
+#            - Path=/api/user/**
+#        - id: sysuser-server
+#          uri: http://localhost:8002
+#          order: 2
+#          predicates:
+#            - Path=/api/sysUser/**
+#        - id: permission-server
+#          uri: http://localhost:8003
+#          order: 3
+#          predicates:
+#            - Path=/api/permission/**
+#        - id: role-server
+#          uri: http://localhost:8004
+#          order: 4
+#          predicates:
+#            - Path=/api/role/**

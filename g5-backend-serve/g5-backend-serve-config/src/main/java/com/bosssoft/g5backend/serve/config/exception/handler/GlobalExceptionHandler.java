@@ -1,7 +1,7 @@
 package com.bosssoft.g5backend.serve.config.exception.handler;
 
 
-import com.example.g5backend.serve.utils.Result;
+import com.bosssoft.g5backend.serve.utils.Result;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
